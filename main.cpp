@@ -19,7 +19,7 @@ map<float, Library> librariesScoreMap; //float - scorul bibliotecii
 set<int> alreadyReadBooks;
 
 int main() {
-    ifstream in("c_incunabula.txt");
+    ifstream in("d_tough_choices.txt");
     in>>B>>L>>D;
 
     for(int i = 0; i < B; i++){
